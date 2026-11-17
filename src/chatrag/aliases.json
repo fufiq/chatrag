@@ -1,0 +1,600 @@
+{
+  "version": 1,
+  "description": "Search aliases: slang, transliterations and abbreviations mapped to canonical concepts. They are retrieval hints, not statements about anyone's opinions. Concept ids are lowercase alphanumerics.",
+  "concepts": [
+    {
+      "id": "python",
+      "canonical": "python",
+      "aliases": [
+        "python",
+        "питон"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "iouring",
+      "canonical": "io_uring",
+      "aliases": [
+        "io_uring",
+        "io-uring",
+        "io uring",
+        "uring"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "jit",
+      "canonical": "jit",
+      "aliases": [
+        "jit",
+        "жит",
+        "zhit",
+        "джит",
+        "житится",
+        "житить",
+        "джит-компиляция"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "clang",
+      "canonical": "clang",
+      "aliases": [
+        "clang",
+        "шланг"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "llvm",
+      "canonical": "llvm",
+      "aliases": [
+        "llvm",
+        "ллвм"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "ast",
+      "canonical": "ast",
+      "aliases": [
+        "ast",
+        "аст",
+        "аста",
+        "асту",
+        "астом",
+        "асте"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "cpp",
+      "canonical": "cpp",
+      "aliases": [
+        "cpp",
+        "c++",
+        "цпп",
+        "плюсы"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "rust",
+      "canonical": "rust",
+      "aliases": [
+        "rust",
+        "раст",
+        "раста",
+        "растом"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "javascript",
+      "canonical": "javascript",
+      "aliases": [
+        "javascript",
+        "js",
+        "жаваскрипт",
+        "жс"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "typescript",
+      "canonical": "typescript",
+      "aliases": [
+        "typescript",
+        "ts",
+        "тайпскрипт"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "editor",
+      "canonical": "редактор",
+      "aliases": [
+        "editor",
+        "редактор",
+        "идешка",
+        "kdevelop",
+        "кдевелоп"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "debugger",
+      "canonical": "отладчик",
+      "aliases": [
+        "debugger",
+        "отладчик",
+        "отладка"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "reference",
+      "canonical": "ссылка",
+      "aliases": [
+        "reference",
+        "ссылка",
+        "ссылки"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "semantic",
+      "canonical": "семантика",
+      "aliases": [
+        "semantic",
+        "семантика",
+        "семантический"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "database",
+      "canonical": "база",
+      "aliases": [
+        "database",
+        "база",
+        "бд",
+        "база данных"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "coroutine",
+      "canonical": "корутина",
+      "aliases": [
+        "coroutine",
+        "корутина",
+        "файбер",
+        "fiber"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "gcc",
+      "canonical": "gcc",
+      "aliases": [
+        "gcc",
+        "гцц",
+        "gnu"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "lsp",
+      "canonical": "lsp",
+      "aliases": [
+        "lsp",
+        "лсп",
+        "clangd",
+        "language server"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "parser",
+      "canonical": "парсер",
+      "aliases": [
+        "parser",
+        "парсер",
+        "парсинг",
+        "разбор"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "module",
+      "canonical": "модуль",
+      "aliases": [
+        "module",
+        "модуль",
+        "модули"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "overload",
+      "canonical": "перегрузка",
+      "aliases": [
+        "overload",
+        "overloading",
+        "перегрузка",
+        "перегрузки"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "generic",
+      "canonical": "шаблон",
+      "aliases": [
+        "generic",
+        "generics",
+        "дженерики",
+        "шаблон",
+        "templates",
+        "template",
+        "темплейты"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "compiletime",
+      "canonical": "compile time",
+      "aliases": [
+        "compile time",
+        "compile-time",
+        "кт",
+        "компайлтайм",
+        "комптайм",
+        "constexpr",
+        "consteval"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "runtime",
+      "canonical": "runtime",
+      "aliases": [
+        "runtime",
+        "run-time",
+        "рантайм",
+        "рантайме",
+        "рт"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "sfinae",
+      "canonical": "sfinae",
+      "aliases": [
+        "sfinae",
+        "сфинае"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "macro",
+      "canonical": "макрос",
+      "aliases": [
+        "macro",
+        "macros",
+        "макрос",
+        "макросы"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "compiler",
+      "canonical": "компилятор",
+      "aliases": [
+        "compiler",
+        "компилятор",
+        "компилятора"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "interpreter",
+      "canonical": "интерпретатор",
+      "aliases": [
+        "interpreter",
+        "интерпретатор",
+        "интерпретатора"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "bytecode",
+      "canonical": "байткод",
+      "aliases": [
+        "bytecode",
+        "байткод",
+        "байт-код"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "vm",
+      "canonical": "vm",
+      "aliases": [
+        "vm",
+        "вм",
+        "виртуальная машина",
+        "виртуалка"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "codegen",
+      "canonical": "кодогенерация",
+      "aliases": [
+        "codegen",
+        "codegenerator",
+        "кодоген",
+        "кодогенерация",
+        "кодогенератор"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "simd",
+      "canonical": "simd",
+      "aliases": [
+        "simd",
+        "симд"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "gpu",
+      "canonical": "gpu",
+      "aliases": [
+        "gpu",
+        "гпу",
+        "видеокарта"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "asm",
+      "canonical": "ассемблер",
+      "aliases": [
+        "asm",
+        "assembler",
+        "ассемблер",
+        "ассемблера"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "gc",
+      "canonical": "сборка мусора",
+      "aliases": [
+        "gc",
+        "гц",
+        "garbage collector",
+        "сборщик мусора",
+        "сборка мусора"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "allocator",
+      "canonical": "аллокатор",
+      "aliases": [
+        "allocator",
+        "аллокатор",
+        "аллокаторы"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "arena",
+      "canonical": "арена",
+      "aliases": [
+        "arena",
+        "арена",
+        "арены"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "heap",
+      "canonical": "куча",
+      "aliases": [
+        "heap",
+        "куча"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "pointer",
+      "canonical": "указатель",
+      "aliases": [
+        "pointer",
+        "pointers",
+        "ptr",
+        "поинтер",
+        "указатель",
+        "указатели"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "immutable",
+      "canonical": "неизменяемый",
+      "aliases": [
+        "immutable",
+        "иммутабельный",
+        "неизменяемый"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "mutable",
+      "canonical": "изменяемый",
+      "aliases": [
+        "mutable",
+        "мутабельный",
+        "изменяемый"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "typecheck",
+      "canonical": "проверка типов",
+      "aliases": [
+        "typecheck",
+        "typechecking",
+        "тайпчек",
+        "тайпчекинг",
+        "проверка типов"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "exception",
+      "canonical": "исключение",
+      "aliases": [
+        "exception",
+        "exceptions",
+        "исключение",
+        "исключения"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "thread",
+      "canonical": "поток",
+      "aliases": [
+        "thread",
+        "threads",
+        "поток",
+        "потоки"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "syntax",
+      "canonical": "синтаксис",
+      "aliases": [
+        "syntax",
+        "синтаксис",
+        "синтаксический"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "serialization",
+      "canonical": "сериализация",
+      "aliases": [
+        "serialization",
+        "serialize",
+        "сериализация"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "repository",
+      "canonical": "репозиторий",
+      "aliases": [
+        "repository",
+        "репозиторий"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "git",
+      "canonical": "git",
+      "aliases": [
+        "git",
+        "гит"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "linux",
+      "canonical": "linux",
+      "aliases": [
+        "linux",
+        "линукс"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "os",
+      "canonical": "операционная система",
+      "aliases": [
+        "os",
+        "ос",
+        "операционная система"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "iterator",
+      "canonical": "итератор",
+      "aliases": [
+        "iterator",
+        "iterators",
+        "итератор",
+        "итераторы"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "closure",
+      "canonical": "замыкание",
+      "aliases": [
+        "closure",
+        "closures",
+        "замыкание",
+        "замыкания"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "neuralnetwork",
+      "canonical": "нейросеть",
+      "aliases": [
+        "neural network",
+        "neural networks",
+        "нейронная сеть",
+        "нейронные сети",
+        "нейросеть",
+        "нейросети",
+        "нейронка",
+        "нейронки",
+        "нейронке"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "llm",
+      "canonical": "llm",
+      "aliases": [
+        "llm",
+        "ллм",
+        "large language model",
+        "большая языковая модель"
+      ],
+      "provenance": "curated"
+    },
+    {
+      "id": "ir",
+      "canonical": "intermediate representation",
+      "aliases": [
+        "ir",
+        "ир",
+        "intermediate representation",
+        "промежуточное представление",
+        "промежуточные представления"
+      ],
+      "provenance": "curated"
+    }
+  ]
+}
