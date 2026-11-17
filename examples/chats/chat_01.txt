@@ -1,0 +1,23 @@
+== 2024-03-02 ==
+18:02 Bob: what do you think about keeping the whiteboard state on the server?
+18:03 Alice Example (→Bob: "what do you think about keeping the whiteboard state on the server?"): the board lives on the server, the client only draws it
+18:04 Alice Example: otherwise every reconnect becomes a merge problem
+18:05 Bob: makes sense
+18:20 Bob: and what about editing code?
+18:21 Alice Example: an editor should edit the AST, not the text
+18:22 Alice Example: text is just one possible view of the program
+== 2024-03-09 ==
+09:10 Carol: why do you keep saying references must survive refactoring?
+09:12 Alice Example (→Carol: "why do you keep saying references must survive refactoring?"): links should keep working when the code changes
+09:13 Alice Example: that is the whole point of a semantic version control system
+09:30 Carol: and neural networks for that?
+09:31 Alice Example: a neural net never gives a reliable solution by itself, so I would not trust it with this
+== 2024-03-16 ==
+20:00 Bob: как у тебя с питоном?
+20:01 Alice Example: питон удобен для прототипов, но для продакшена я беру что-нибудь типизированное
+20:02 Alice Example: а io_uring вообще отдельная история
+20:03 Bob: расскажи про жит
+20:05 Alice Example: жит ничем не отличается от обычной компиляции, просто компилируешь по частям
+== 2024-04-01 ==
+12:00 Carol: weather is great today
+12:01 Alice Example: yes, apples and pears are in season too

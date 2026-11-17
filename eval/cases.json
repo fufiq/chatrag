@@ -1,0 +1,20 @@
+{
+  "description": "Regression benchmark over the synthetic corpus in examples/chats. 'expected' is a message id (file:line) that must appear in the top 10, directly or as context; 'concept' queries must return mentions of the concept; a case with neither must return nothing. This is a small regression set, not a measure of quality on a real corpus.",
+  "cases": [
+    {"query": "whiteboard state on the server", "expected": "chat_01.txt:3"},
+    {"query": "where should the board state live and what does the client do", "expected": "chat_01.txt:3"},
+    {"query": "links keep working when the code changes", "expected": "chat_01.txt:11"},
+    {"query": "stable references in semantic version control", "expected": "chat_01.txt:11"},
+    {"query": "reliable solutions from neural networks", "expected": "chat_01.txt:14"},
+    {"query": "editor should edit the AST rather than text", "expected": "chat_01.txt:7"},
+    {"query": "what should a semantic editor edit", "expected": "chat_01.txt:7"},
+    {"query": "python", "concept": "python"},
+    {"query": "питон", "concept": "python"},
+    {"query": "pythoon", "concept": "python"},
+    {"query": "io_uring", "concept": "iouring"},
+    {"query": "io uring", "concept": "iouring"},
+    {"query": "жит", "concept": "jit"},
+    {"query": "jit", "concept": "jit"},
+    {"query": "quantum chromodynamics lattice", "split": "control"}
+  ]
+}
